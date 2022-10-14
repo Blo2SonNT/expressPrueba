@@ -6,7 +6,7 @@ const app = express();
 conectarDB()
 app.use(cors())
 app.use(express.json())
-
+    //pepe
 app.use('/api', require('./routes/routes'))
 
 const puerto = process.env.PORT || 4000
